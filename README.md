@@ -32,5 +32,68 @@ It enables efficient handling of student certificates with operations for adding
 | Styling | CSS3 / Angular Material |
 
 
+## How to Run the Angular App
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/PRIYAtechky/certificate-management-angular.git
+cd certificate-management-angular
+```
 
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the Angular application
+```bash
+ng serve
+```
+Open the app in your browser:
+
+```bash
+http://localhost:4200/
+```
+
+### 4. Ensure Backend is Running
+
+Your Spring Boot backend should be active on:
+```bash
+http://localhost:8083/
+```
+
+### 5. Database Connection
+
+The backend connects to PostgreSQL, so ensure it’s running and configured properly.
+
+## How It Works
+
+- The user interacts with the **Angular** interface to manage certificate details.
+
+- The app sends requests to the **Spring Boot REST API** for CRUD operations.
+
+- Data is stored and retrieved from the **PostgreSQL** database.
+
+## Dependencies Used
+
+**In Angular:**
+
+* @angular/core
+
+* @angular/forms
+
+* @angular/material
+
+* @angular/common/http
+
+**In Spring Boot:**
+
+* Spring Web
+
+* Spring Data JPA
+
+* PostgreSQL Driver
+
+---
+
+*Created and maintained by **Padmapriya** as part of the **TNSIF training program**.*

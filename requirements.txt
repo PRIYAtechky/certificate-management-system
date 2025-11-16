@@ -1,0 +1,4 @@
+Angular CLI
+Node.js
+Java 17+
+PostgreSQL
